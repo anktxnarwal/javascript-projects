@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Weather App</h1>
+
+        <div class="head-content">
+          <input
+            type="text"
+            placeholder="Search for city...."
+            id="input-city"
+          />
+          <button id="serach-btn" onclick="listen()">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <h1 id="city">City</h1>
+        <div id="main-box">
+          <p><span id="main-temp"></span>°C</p>
+        </div>
+        <div class="info-container">
+          <div>
+            <img src="images/cloudy.png" />
+            <p>Real feel</p>
+            <p><span id="real-data"></span>°C</p>
+          </div>
+          <div>
+            <img src="images/wind.png" />
+            <p>Wind Speed</p>
+            <p><span id="wind-data"></span> m/s</p>
+          </div>
+          <div>
+            <img src="images/humidity.png" />
+            <p>Humidity</p>
+            <p><span id="humidity-data"></span>%</p>
+          </div>
+          <div>
+            <img src="images/atmospheric.png" />
+            <p>pressure</p>
+            <p><span id="cloud-data"></span> mbar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
