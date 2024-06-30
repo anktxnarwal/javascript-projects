@@ -19,7 +19,7 @@ img {
 .container {
   height: 80vh;
   width: 80vw;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
@@ -29,13 +29,14 @@ img {
   justify-content: center;
   gap: 20px;
 }
-.container h1 {
+#heading {
   color: rgb(133, 98, 98);
+  font-size: 2.25rem;
 }
 .head-content {
   background: gray;
   height: 7vmin;
-  width: 40vmax;
+  width: 35vmax;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,8 +49,8 @@ img {
   background: transparent;
   outline: none;
   border: none;
-  width: 30vmax;
-  font-size: 1rem;
+  width: 25vmax;
+  font-size: 1.25rem;
   color: white;
 }
 ::placeholder {
@@ -86,5 +87,11 @@ img {
   text-align: center;
   font-style: italic;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: 500;
+}
+#city {
+  color: rgb(133, 98, 98);
+  font-size: 2rem;
+  font-weight: bolder;
 }
