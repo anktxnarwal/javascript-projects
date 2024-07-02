@@ -29,7 +29,7 @@ async function fatchData(city) {
     console.error(error);
   }
 }
-// fatchData("Delhi");
+fatchData("Delhi");
 
 async function currentLocation() {
   try {
