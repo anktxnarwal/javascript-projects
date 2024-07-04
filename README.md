@@ -2,4 +2,6 @@
   <li>Weather App Live Demo - https://anktxnarwal.github.io/javascript-projects/weather-app/index.html</li>
   <br>
   <li>Tic Tac Toe Live Demo - https://anktxnarwal.github.io/javascript-projects/tic-tac-toe/index.html</li>
+  <br>
+  <li>Recipe App Live Demo - https://anktxnarwal.github.io/javascript-projects/recipe-app/index.html</li>
 </ul>
